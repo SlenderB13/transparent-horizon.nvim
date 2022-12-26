@@ -2,7 +2,7 @@
 
 Created with [colorgen-nvim](https://github.com/ChristianChiarulli/colorgen-nvim)
 
-This fork fix and changes some colors to fit transparent background. 
+This fork fix and changes some colors to fit transparent backgrounds. 
 
 **Changes:**
 * LSP Error foreground to a more visible red
@@ -10,6 +10,10 @@ This fork fix and changes some colors to fit transparent background.
 * LSP Warning foreground to default orange
 * Telescope pickers are now transparent
 * LSP/LSPSaga Hover Docs, Peek Definition, Code Actions, Code Diagnostics are now transparent
+
+## !Important:
+This fork changes some colors of horizon theme so it fits to transparent backgrounds, but it doesn't apply or create the transparency itself.
+For doing so, i highly recommend you to use [nvim-transparent](https://github.com/xiyaowong/nvim-transparent) plugin.
 
 ## Installation
 
@@ -27,3 +31,4 @@ vim.cmd[[colorscheme horizon]]
 ## Credit & References
 
 [horizon-theme](https://github.com/jolaleye/horizon-theme-vscode)
+[nvim-transparent](https://github.com/xiyaowong/nvim-transparent)
